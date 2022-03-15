@@ -1,0 +1,150 @@
+header {
+  background: #ffffff;
+  padding: 10px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 35px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: orange;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(255, 166, 0);
+  text-decoration: underline;
+}
+nav li:hover a {
+  font-size: 25px;
+  transition: 0.5s;
+}
+.promocoes {
+  position: inline;
+  background: yellowgreen;
+  width: 940px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.imagemLogo {
+  width: 230px;
+}
+.imagemTamanho {
+  margin-top: 10px;
+  width: 245px;
+  height: 200px;
+  border-radius: 50px 5px 25px 0px;
+}
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 50px 5px 25px 0px;
+  margin-top: 20px;
+}
+.produtos li:hover {
+  border-color: yellow;
+}
+.produtos li:active {
+  border-color: green;
+}
+.produtos li:hover h2 {
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.produtos li:active h2 {
+  color: green;
+  transition: 0.5s;
+}
+.produtos h2 {
+  color: rgb(221, 142, 52);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 20px;
+  color: grey;
+}
+.produto-preco {
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 10px 0 0;
+  background-color: rgb(221, 142, 52);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.produto-preco:active {
+  background-color: green;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  background: orangered;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form input {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.logoRodape {
+  width: 300px;
+  border-radius: 100%;
+}
