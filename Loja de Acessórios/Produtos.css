@@ -1,5 +1,5 @@
 header {
-  background: #ffffff;
+  background: white;
   padding: 10px 0;
 }
 
@@ -35,7 +35,7 @@ nav a:hover {
 }
 nav li:hover a {
   font-size: 25px;
-  transition: 0.5s;
+  transition: 0.5s all;
 }
 .promocoes {
   position: inline;
@@ -45,6 +45,20 @@ nav li:hover a {
   margin: 0 auto;
   padding: 20px 0;
 }
+.bordaimagem {
+  align-items: center;
+  padding: 40px 0 40px;
+  margin: 0 40px;
+  width: 300px;
+  height: 400px;
+}
+main h1 {
+  margin: 25px 0 25px;
+  color: orange;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -52,11 +66,12 @@ nav li:hover a {
 }
 .imagemLogo {
   width: 230px;
+  border-radius: 85%;
 }
 .imagemTamanho {
   margin-top: 10px;
   width: 245px;
-  height: 200px;
+  height: 250px;
   border-radius: 50px 5px 25px 0px;
 }
 .produtos li {
@@ -65,7 +80,7 @@ nav li:hover a {
   width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
-  padding: 30px 20px;
+  padding: 80px 20px;
   box-sizing: border-box;
   border: 2px solid orange;
   border-radius: 50px 5px 25px 0px;
@@ -79,12 +94,12 @@ nav li:hover a {
 }
 .produtos li:hover h2 {
   font-size: 40px;
-  transition: 0.5s;
+  transition: 0.5s all;
 }
 
 .produtos li:active h2 {
   color: green;
-  transition: 0.5s;
+  transition: 0.5s all;
 }
 .produtos h2 {
   color: rgb(221, 142, 52);
@@ -95,6 +110,7 @@ nav li:hover a {
 .produto-descricao {
   font-size: 20px;
   color: grey;
+  margin: 10px 0 10px;
 }
 .produto-preco {
   font-size: 25px;
@@ -108,7 +124,7 @@ nav li:hover a {
 
 .produto-preco:active {
   background-color: green;
-  transition: 0.5s;
+  transition: 0.5s all;
 }
 
 footer {
