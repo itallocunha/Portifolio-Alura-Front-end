@@ -1,0 +1,19 @@
+.titulo-principal-receitas {
+  background: lightgrey;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: darkred;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media screen and (min-width: 0) {
+  .titulo-principal-receitas {
+    font-size: 3.1575rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .titulo-principal-receitas {
+    font-size: 6rem;
+  }
+}
