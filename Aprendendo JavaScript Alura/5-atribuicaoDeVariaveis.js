@@ -20,3 +20,5 @@ console.log(nome);
 
 const nomeCompleto = nome + sobrenome;
 console.log(nomeCompleto);
+
+console.log("Meu nome é" + nome + sobrenome);

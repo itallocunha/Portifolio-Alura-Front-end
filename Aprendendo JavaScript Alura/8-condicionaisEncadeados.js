@@ -7,7 +7,10 @@ const listaDeDestinos = new Array(
     `Curitiba`,
     );
 
+    
     const idadeComprador = 21;
+    const estaAcompanhada = true;
+
 //adiciona itens na lista 
 listaDeDestinos.push(`Rio Grande do Sul`);
 console.log("Destinos possiveis:");
@@ -16,11 +19,14 @@ console.log(listaDeDestinos);
 
 if(idadeComprador >= 18){
     // retira um item da lista
-    listaDeDestinos.splice(3,1);
-}else{
-    console.log("Não é maior de idade e não posso vender");
+    listaDeDestinos.splice(1,1);
+}else if(estaAcompanhada == true){
+        console.log("Comprador esta acompanhado");
+        listaDeDestinos.splice(1,1); //remove item
+    }else{
+        console.log("Não é maior de idade e não posso vender");
+    }
 
-}
 console.log(listaDeDestinos);
 
 console.log(idadeComprador > 18);
