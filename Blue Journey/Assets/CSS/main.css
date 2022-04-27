@@ -24,6 +24,32 @@
         left: 0;
 
     }
+
+    .bj-logo{
+        height: 110px;
+        width: 75px;
+        float: left;
+        margin-left: 60px;
+        background-color: blue;
+        border-radius: 0 0 37px 0;
+        text-align: center; 
+
+    }
+    .bj-logo h1{
+        padding-top: 45px;
+    }
+
+    .bj-logo img{
+        width: 46px;
+        height: 31px;
+        display: block;
+        margin: 55px auto 0;
+    }
+
+    .bj-menu{
+        display: none;
+
+    }
 }
 
 @media screen and (min-width: 576px)
@@ -38,7 +64,29 @@
 
 @media screen and (min-width: 992px)
 {
-    
+    .bj-menu{
+        display: table;
+        float: left;
+        height: 110px;
+        width: auto;
+        
+    }
+    .bj-menu a {
+        
+        font-family: 'Open Sans';
+        font-size: 16px;
+        color: #bcbcbc;
+        text-transform: lowercase;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 20px;
+        margin-top: 50px;
+
+
+    }
+    .bj-menu a :first-child{
+        padding-left: 0;
+    }
 }
 
 @media screen and (min-width: 1200px)
