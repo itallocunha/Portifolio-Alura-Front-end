@@ -2,16 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webbkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+p{
+    font-family: 'Open Sans','sans-serif';
 
+}
 @media screen and (min-width: 320px)
 {
     .bj-page-wrapper{
         width: 100%;
         height: 100vh;
         display: block;
-        background-color: #1c1c1c;
-        border: 30px solid #000;
+        background-color: aqua;
+        border: 30px solid rgb(3, 142, 142);
     }
 
     .bj-topbar{
@@ -24,15 +29,71 @@
         left: 0;
 
     }
+    .bj-btncontact{
+        width: 45px;
+        height: 45px;
+        display: block;
+        background-color: blueviolet;
+        background-image: url('../img/icon-contact-close.svg');
+        background-repeat: no-repeat;
+        position: fixed;
+        bottom: 45px;
+        right: 45px;
+        border-radius:50%;
+        z-index: 200;
+        transition: all 0.2s ease-out; 
+        border: none;
+        cursor: pointer;
+    }
+   
+    .bj-contact-info{
+    width: 245px;
+    height: 165px;
+    padding: 25px;
+    position: fixed;
+    bottom: 115px;
+    right: 65px;
+    z-index: 200;
+    display: none;
+    }
 
+    .bj-contact-info-inner{
+        display: table;
+        width: 100%;
+        float: right;
+    }
+
+.bj-contact-info-inner p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.bj-corner{
+    width: 25px;
+    height: 25px;
+    display: block;
+    float: right;
+    display: relative;
+}
+.bj-corner:after{
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    background: transparent url('../img/corner.svg') no-repeat;
+
+}
     .bj-logo{
-        height: 110px;
-        width: 75px;
+        height: 140px;
+        width: 160px;
         float: left;
         margin-left: 60px;
-        background-color: blue;
+        background-color: blueviolet;
         border-radius: 0 0 37px 0;
         text-align: center; 
+        color: white;
 
     }
     .bj-logo h1{
@@ -50,6 +111,30 @@
         display: none;
 
     }
+   
+    
+    .bj-social-links{
+        display: block;
+        width: 100%;
+        height: 45px;
+        position: relative;
+        left: -12px;
+        margin-top: 7px;
+        
+    }
+    .bj-social{
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        
+    }
+    .bj-social > img{
+        width: 20px;
+        height: auto;
+        display: block;
+        margin: 13px auto 0;
+    }
+  
 }
 
 @media screen and (min-width: 576px)
@@ -74,8 +159,9 @@
     .bj-menu a {
         
         font-family: 'Open Sans';
-        font-size: 16px;
-        color: #bcbcbc;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
         text-transform: lowercase;
         text-decoration: none;
         display: inline-block;
@@ -102,4 +188,34 @@
 @media screen and (min-width: 1600px)
 {
     
+}
+/* UTILITUIES */
+.bj-text-white{
+    color: white;
+}
+
+.bj-btn-text-blue{
+    color: violet;
+}
+.bj-text-grey{
+    color: #bcbcbc;
+}
+.bj-text-dark{
+    color: #000;
+}
+
+.bj-bg-black{
+    background-color: #000;
+}
+
+.bj-title{
+    font-weight: normal;
+    font-family: 'Abril Fatface','sans-serif';
+}
+  /* CLASSES DE COMPORTAMENTO */
+  .bj-is-open{
+    display: block;
+}
+.bj-change-icon{
+    background-position-y:-45px ;
 }
