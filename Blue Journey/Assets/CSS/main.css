@@ -435,6 +435,14 @@ p{
     background-size: cover;
     border-bottom: 5px solid gray;
 }
+/* .bj-img-nav-bar-config{
+    height: 100px;
+    width: 100%;
+
+    background-image: url(/Assets/img/Rectangle-1024x144.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+} */
 .bj-first-section{
     height: calc(100vh - 30px);
 }
