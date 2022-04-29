@@ -9,18 +9,84 @@ p{
     font-family: 'Open Sans','sans-serif';
 
 }
+
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+}
+@keyframes lineDown{
+    0%{
+        transform: scale(1,0);
+        transform-origin: top center;
+    }
+    25%{
+        transform: scale(1,1);
+        transform-origin: top center;
+    }
+    75%{
+        transform: scale(1,1);
+        transform-origin: top center;
+    }
+    76%{
+        transform: scale(1,1);
+        transform-origin: bottom center;
+    }
+    100%{
+        transform: scale(1,0);
+        transform-origin: bottom center;
+
+    }
+}
+@keyframes arrowDown {
+    0% {
+        bottom:25px;
+    }
+    30%{
+        bottom:15px;
+        opacity: 1;
+    }
+    70%{
+        bottom: 10px;
+        opacity: 1;
+    }
+    100%{
+        bottom:5px;
+        opacity: 0;
+    }
+}
 @media screen and (min-width: 320px)
 {
-    .bj-page-wrapper{
+    .bj-page-wrapper, .bj-preloader{
         width: 100%;
         height: 100vh;
-        display: block;
-        background-color: rgb(105, 105, 105);
-        border: 30px solid rgb(7, 255, 255);
+        display: table;
+        background-color: black;
+        border: 30px solid rgb(120, 255, 255);
+    }
+    .bj-preloader{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .bj-preloader-inner{
+        margin-top:-45px;
     }
     .bj-image-config{
         width: 100%;
         height: 100%;
+    }
+    .bj-image-config-preloader{
+        height: 550px;
+        width: 450px;
+        
     }
     .bj-topbar{
         width: 100%;
@@ -33,11 +99,11 @@ p{
 
     }
     .bj-logo{
-        height: 135px;
-        width: 255px;
+        height: 115px;
+        width: 260px;
         float: left;
-        margin-left: 60px;
-        background-color: rgb(164, 73, 248);
+        margin-left: 50px;
+        background-color: rgb(180, 106, 250);
         border-radius: 0 0 37px 37px;
         text-align: center; 
         color: white;
@@ -47,7 +113,7 @@ p{
     .bj-logo img{
         position: absolute;
         width: 250px;
-        height: 150px;
+        height: 100px;
         display: block;
         margin: 0 auto;
         
@@ -137,7 +203,69 @@ p{
         display: block;
         margin: 13px auto 0;
     }
-  
+  /* Home */
+  .bj-display-text{
+      margin-top:15%;
+  }
+  #bj-home-presentation{
+      background-image: url(../img/Event_Calendar_Heart_5_rtwlxm.png);
+      background-repeat: no-repeat;
+      background-position: 50% bottom;
+      
+  }
+.bj-home-image{
+    position: absolute;
+    height:700px;
+    margin-left: 600px;
+
+}
+.bj-scroll-down{
+ width: 70px; 
+ height: 105px;
+ border-radius:  35px 35px 0 0;
+ background-color: violet;
+ display: block;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+ z-index: 100;
+}
+.bj-arrow-down{
+   width: 100%;
+   height: 95px;
+   display:table;
+   margin-top: 30px;
+   position: relative;
+}
+.bj-arrow-down img{
+    width: 16px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    animation: arrowDown 1s linear 1s infinite;
+}
+.bj-arrow-down:before{
+    content: '';
+    width: 2px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #000;
+    animation: lineDown 1.5s ease-out infinite;
+    transform-origin: top center;
+}
+
 }
 
 @media screen and (min-width: 576px)
@@ -192,13 +320,48 @@ p{
 {
     
 }
+
+/* BOTOES */
+.bj-btn{
+    display: table;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: all 0.2s ease-out;
+    
+}
+
+.bj-btn-medium{
+    height:28px;
+    padding: 0 20px;
+    border-radius: 14px;
+    font-size: 11px;
+}
+
+.bj-btn-medium{
+    height:38px;
+    padding: 0 27px;
+    border-radius: 19px;
+    font-size: 14px;
+}
+.bj-btn-large{
+    height:45px;
+    padding: 0 35px;
+    border-radius: 23px;
+    font-size: 14px;
+}
+
 /* UTILITUIES */
+.bj-title-big{
+    font-size:80px;
+}
 .bj-text-white{
     color: white;
 }
 
-.bj-btn-text-blue{
-    color: violet;
+.bj-btn-text-purple{
+    color: rgb(148, 7, 148);
 }
 .bj-text-grey{
     color: #bcbcbc;
@@ -215,10 +378,56 @@ p{
     font-weight: normal;
     font-family: 'Abril Fatface','sans-serif';
 }
+.bj-mar-15{
+    margin: 15px;
+}
+.bj-mar-top-15{
+    margin-top: 15px;
+}
+.bj-mar-bottom-15{
+    margin-bottom: 15px;
+}
+.bj-mar-left-15{
+    margin-left: 15px;
+}
+.bj-mar-left-15{
+    margin-left: 15px;
+}
+.bj-pad-15{
+    padding: 15px;
+}
+.bj-pad-top-15{
+    padding-top: 15px;
+}
+.bj-pad-bottom-15{
+    padding-bottom: 15px;
+}
+.bj-pad-left-15{
+    padding-left: 15px;
+}
+.bj-pad-left-15{
+    padding-left: 15px;
+}
+.bj-full-height{
+    height:100vh;
+    background-image: url(/Assets/img/Vector-1-1024x472.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    border-bottom: 5px solid gray;
+}
+.bj-first-section{
+    height: calc(100vh - 30px);
+}
+
+
   /* CLASSES DE COMPORTAMENTO */
   .bj-is-open{
     display: block;
 }
 .bj-change-icon{
     background-position-y:-45px ;
+}
+.bj-fade-out{
+    animation: fadeOut 5s forwards ease-out;
 }

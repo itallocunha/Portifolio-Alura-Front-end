@@ -1,25 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.76032 137.43215">
   <defs>
-    <style>
+    <style type="text/css">
+    @keyframes lineGrow {
+        to{
+          fill-dashoffset: 0;
+          stroke-dashoffset: 0;
+        }
+    }
       .cls-1 {
         fill: #b1b1b0;
+        fill-dasharray: 1000;
+        fill-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: lineGrow 3s infinite ease-out;
       }
 
       .cls-2 {
         fill: #135aa7;
+        fill-dasharray: 1000;
+        fill-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: lineGrow 3s infinite ease-out;
       }
 
       .cls-3, .cls-5 {
         fill: #f2f2f2;
+        fill-dasharray: 1000;
+        fill-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: lineGrow 3s infinite ease-out;
       }
 
       .cls-4 {
         fill: none;
+        fill-dasharray: 1000;
+        fill-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: lineGrow 3s infinite ease-out;
       }
 
       .cls-5 {
         font-size: 16.13305px;
         font-family: OpenSans, Open Sans;
+        fill-dasharray: 1000;
+        fill-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: lineGrow 3s infinite ease-out;
       }
     </style>
   </defs>

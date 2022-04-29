@@ -7,10 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/main.css">
     <title>Home Page - Blue Journey</title>
 </head>
 <body>
+    <div class="bj-preloader">
+        <div class="bj-preloader-inner">
+            <img class="bj-image-config-preloader"src="Assets/img/multi-blue-heart-logo-separate.svg">
+            <p class="bj-mar-left-15 bj-text-white"> Waiting for Blue Journey...</p>
+        </div>
+    </div>
+
+
     <header class="bj-topbar">
         <div class="bj-logo">
             
@@ -23,6 +32,8 @@
             
         </nav>
     </header>
+
+
     <div class="bj-contact-info bj-bg-black bj-text-white">
         <div class="bj-contact-info-inner">
                 <h2 class="bj-btn-text-blue">Contact</h2>
@@ -43,10 +54,29 @@
         <div class="bj-corner"></div>
     </div>
 
+
+
     <button class="bj-btncontact"></button>
 
     <div class="bj-page-wrapper">
-        <img class="bj-image-config" src="Assets/img/Vector-1-1024x472.png">
+        <section class="bj-full-height bj-first-section" > 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 bj-display-text " >
+                        <img class="bj-home-image" src="Assets/img/Event_Calendar_Heart_5_rtwlxm.png">
+                            <h1 class="bj-title bj-text-white bj-title-big">Blue Journey</h1>
+                            <p class="bj-btn-text-purple bj-text">Lorem Ipsum</p>
+                            <button class="bj-btn bj-btn-medium">Projects</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bj-scroll-down">
+                <div class="bj-arrow-down">
+                    <img src="Assets/img/arrow-down.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bj-full-height"> </section>
     </div>
 
     <script src="./Assets/JavaScript/main.js"></script>
