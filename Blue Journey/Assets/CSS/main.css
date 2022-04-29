@@ -64,6 +64,13 @@ p{
         background-color: black;
         border: 30px solid rgb(120, 255, 255);
     }
+    .bj-page-wrapper-dialogen{
+        width: 100%;
+        height: 100vh;
+        display: table;
+        background-color: black;
+        border: 30px solid rgb(120, 255, 255);
+    }
     .bj-preloader{
         display: flex;
         flex-direction:row;
@@ -430,6 +437,22 @@ p{
 .bj-project-img-2{
     height:100vh;
     background-image: url(/Assets/img/Courage_Night_Full_1_70_o3q9ty.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    border-bottom: 5px solid gray;
+}
+.bj-project-img-3{
+    height:50vh;
+    background-image: url(/Assets/img/01.effectsResult-1024x579.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    border-bottom: 20px solid violet;
+}
+.bj-project-img-4{
+    height:100vh;
+    background-image: url(/Assets/img/dialogue.png);
     background-repeat: no-repeat;
     
     background-size: cover;
