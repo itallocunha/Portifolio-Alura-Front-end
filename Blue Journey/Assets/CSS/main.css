@@ -356,6 +356,9 @@ p{
 .bj-title-big{
     font-size:80px;
 }
+.bj-title-medium{
+    font-size: 40px;
+}
 .bj-text-white{
     color: white;
 }
@@ -411,6 +414,22 @@ p{
 .bj-full-height{
     height:100vh;
     background-image: url(/Assets/img/Vector-1-1024x472.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    border-bottom: 5px solid gray;
+}
+.bj-project-img-1{
+    height:100vh;
+    background-image: url(/Assets/img/Desktop-1-1-1024x561.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    border-bottom: 5px solid gray;
+}
+.bj-project-img-2{
+    height:100vh;
+    background-image: url(/Assets/img/Courage_Night_Full_1_70_o3q9ty.png);
     background-repeat: no-repeat;
     
     background-size: cover;
