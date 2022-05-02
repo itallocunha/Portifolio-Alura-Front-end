@@ -39,7 +39,7 @@ object-position: 0 100%;
     background-color: #024796
 }
 .color-and-all-the-atributes{
-    background-color: rgb(167, 29, 167); 
+    background-color: linear-gradient( to right, aqua, purple); 
     color: white;
     font-weight: bold; 
     font-size: 1.3em; 

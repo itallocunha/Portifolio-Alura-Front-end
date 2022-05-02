@@ -6,7 +6,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 p{
-    font-family: 'Open Sans','sans-serif';
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -62,7 +63,7 @@ p{
         height: 100vh;
         display: table;
         background-color: black;
-        border: 30px solid rgb(120, 255, 255);
+        
     }
     .bj-page-wrapper-dialogen{
         width: 100%;
@@ -99,18 +100,21 @@ p{
         width: 100%;
         height: 110px;
         display: block;
-        background-color: transparent;
+        background-image: url(../img/Banner-2.png);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: cover;
         position: fixed;
         top: 0;
         left: 0;
 
     }
     .bj-logo{
-        height: 115px;
-        width: 260px;
+        height: 130px;
+        width: 350px;
         float: left;
-        margin-left: 50px;
-        background-color: rgb(180, 106, 250);
+        margin-left: 40px;
+        /* background-color: transparent; */
         border-radius: 0 0 37px 37px;
         text-align: center; 
         color: white;
@@ -119,7 +123,7 @@ p{
 
     .bj-logo img{
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 100px;
         display: block;
         margin: 0 auto;
@@ -296,9 +300,10 @@ p{
     }
     .bj-menu a {
         
-        font-family: 'Open Sans';
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Oswald', sans-serif;
         font-size: 20px;
-        font-weight: bold;
+        font-weight: lighter 300;
         color: white;
         /* text-transform: lowercase; */
         text-decoration: none;
@@ -332,7 +337,8 @@ p{
 .bj-btn{
     display: table;
     text-align: center;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600;
     border: none;
     transition: all 0.2s ease-out;
@@ -386,7 +392,8 @@ p{
 
 .bj-title{
     font-weight: normal;
-    font-family: 'Abril Fatface','sans-serif';
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 .bj-mar-15{
     margin: 15px;
@@ -420,11 +427,10 @@ p{
 }
 .bj-full-height{
     height:100vh;
-    background-image: url(/Assets/img/Vector-1-1024x472.png);
+    background-image: url(/Assets/img/Background-1.png);
     background-repeat: no-repeat;
-    
     background-size: cover;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid black;
 }
 .bj-project-img-1{
     height:100vh;
@@ -432,7 +438,7 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid black;
 }
 .bj-project-img-2{
     height:100vh;
@@ -440,7 +446,7 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid black;
 }
 .bj-project-img-3{
     height:50vh;
@@ -456,7 +462,7 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid black;
 }
 /* .bj-img-nav-bar-config{
     height: 100px;
