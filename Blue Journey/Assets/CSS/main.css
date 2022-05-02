@@ -230,6 +230,11 @@ p{
     margin-left: 600px;
 
 }
+.bj-courage-image{
+    height:150px;
+    width:500px;
+    
+}
 .bj-scroll-down{
  width: 70px; 
  height: 105px;
@@ -276,7 +281,20 @@ p{
     animation: lineDown 1.5s ease-out infinite;
     transform-origin: top center;
 }
-
+.bj-config-section-1{
+    background-color: rgb(16, 66, 141);
+    border-radius: 37px 37px 37px 37px;
+    padding: 30px 30px;
+    opacity: 77%;
+    
+}
+.bj-config-section-2{
+    background-color: rgb(187, 48, 187);
+    border-radius: 37px 37px 37px 37px;
+    padding: 30px 30px;
+    opacity: 85%;
+    
+}
 }
 
 @media screen and (min-width: 576px)
