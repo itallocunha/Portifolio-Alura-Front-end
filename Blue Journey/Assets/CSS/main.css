@@ -283,20 +283,112 @@ p{
 }
 .bj-config-section-1{
     background-color: rgb(16, 66, 141);
-    border-radius: 37px 37px 37px 37px;
+    /* border-radius: 37px 37px 37px 37px; */
     padding: 30px 30px;
     opacity: 77%;
     
 }
 .bj-config-section-2{
-    background-color: rgb(187, 48, 187);
-    border-radius: 37px 37px 37px 37px;
+    background-color: purple;
+    /* border-radius: 37px 37px 37px 37px; */
     padding: 30px 30px;
     opacity: 85%;
     
 }
+.bj-config-page-loading-1{
+    background-image: linear-gradient(to right, rgb(0, 183, 255) 50%, rgb(187, 48, 187) 50%);
+}
+.bj-config-page-loading-2{
+    background-image: url(../img/Background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.bj-config-image-loading{
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+
+}
+
+.bj-config-image-loading-1{
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 700px;
+    margin-left: 500px;
+    
+}
+.bj-config-image-loading-2{
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 470px;
+    margin-left:710px;
+    
+}
+.bj-config-image-logo-loading{
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 690px;
+    height: 100%;
+    width: 500px;
+    right: 0;
+    left: 0;
+    
+}
+
+.bj-link-projeto-1{
+    position: absolute;
+    height: 400px;
+    width: 100px;
+    margin-top: 600px;
+    margin-left: 770px;
+    border:none;
+    cursor: pointer;
+    
+}
+
+.bj-link-projeto-2{
+    position: absolute;
+    height: 400px;
+    width: 100px;
+    margin-top: 600px;
+    margin-left: 970px;
+    border:none;
+    cursor: pointer;
+}
+.bj-config-image-dialogue{
+    height: 100%;
+    width: 100%;
+}
+.bj-config-image-dialogue-1{
+    position: absolute;
+    height: 150px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.bj-footer-colaboration{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    
+}
+.bj-footer-colaboration-image{
+    margin-top: 15px;
+    margin-left: 1200px;
+}
+.bj-footer-links{
+    /* background-image: url(../img/bottom-gradient-content@4x-1-1024x212.png);
+    background-repeat: no-repeat;
+    background-position: cover; */
+}
+
+
+
+
+}
 @media screen and (min-width: 576px)
 {
     
@@ -352,6 +444,29 @@ p{
 }
 
 /* BOTOES */
+.bj-local-btn-1{
+    position: absolute;
+    background-color: darkblue;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 900px;
+    height:30px;
+    width:70px;
+    text-decoration: none;
+    color: white;
+}
+.bj-local-btn-2{
+    position: absolute;
+    background-color: purple;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 200px;
+    height:30px;
+    width:70px;
+    text-decoration: none;
+    color: white;
+}
+
 .bj-btn{
     display: table;
     text-align: center;
@@ -362,18 +477,44 @@ p{
     transition: all 0.2s ease-out;
     
 }
+.bj-btn-1{
+    display: table;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: darkblue;
+    
+}
+.bj-btn-2{
+    display: table;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: rgb(243, 186, 0);
+    
+}
 
-.bj-btn-medium{
+.bj-btn-small{
     height:28px;
     padding: 0 20px;
-    border-radius: 14px;
+    border-radius: 2px;
     font-size: 11px;
 }
 
 .bj-btn-medium{
     height:38px;
     padding: 0 27px;
-    border-radius: 19px;
+    border-radius: 5px;
     font-size: 14px;
 }
 .bj-btn-large{
@@ -384,6 +525,11 @@ p{
 }
 
 /* UTILITUIES */
+.bj-text-config{
+    margin-left: 150px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 35px;
+}
 .bj-title-big{
     font-size:80px;
 }
@@ -448,7 +594,7 @@ p{
     background-image: url(/Assets/img/Background-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 5px solid black;
+    
 }
 .bj-project-img-1{
     height:100vh;
@@ -456,7 +602,7 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid black;
+    
 }
 .bj-project-img-2{
     height:100vh;
@@ -464,7 +610,7 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid black;
+    
 }
 .bj-project-img-3{
     height:50vh;
@@ -476,7 +622,7 @@ p{
 }
 .bj-project-img-4{
     height:100vh;
-    background-image: url(/Assets/img/dialogue.png);
+    background-image: url(/Assets/img/Dialogue-CrystalBackground.svg);
     background-repeat: no-repeat;
     
     background-size: cover;
