@@ -62,14 +62,14 @@ p{
         width: 100%;
         height: 100vh;
         display: table;
-        background-color: black;
+        
         
     }
     .bj-page-wrapper-dialogen{
         width: 100%;
         height: 100vh;
         display: table;
-        background-color: black;
+        
         border: 30px solid rgb(120, 255, 255);
     }
     .bj-preloader{
@@ -98,7 +98,7 @@ p{
     }
     .bj-topbar{
         width: 100%;
-        height: 110px;
+        height: 100px;
         display: block;
         background-image: url(../img/Banner-2.png);
         background-repeat: no-repeat;
@@ -189,6 +189,7 @@ p{
     
     .bj-menu{
         display: none;
+        font-size: 12px;
 
     }
    
@@ -380,12 +381,46 @@ p{
     margin-left: 1200px;
 }
 .bj-footer-links{
-    /* background-image: url(../img/bottom-gradient-content@4x-1-1024x212.png);
+    
+    background-image: url(/Assets/img/bottom-gradient-content@4x-1-1024x212.png);
     background-repeat: no-repeat;
-    background-position: cover; */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+       
 }
-
-
+.bj-colunas-rodape{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-left:200px;
+    margin-top: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.bj-colunas-rodape-linhas{
+    margin-top: 10px;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.bj-colunas-rodape-links{
+    text-decoration: none;
+    color: white;
+    
+}
+.bj-colunas-rodape-colunas{
+    display: inline-block;
+    margin-left: 160px;
+}
+.bj-image-rodape{
+    position: absolute;
+    margin-left: 100px;
+}
+.bj-video-page{
+height: 100%;
+width: 100%;
+}
 
 
 }
@@ -626,7 +661,6 @@ p{
     background-repeat: no-repeat;
     
     background-size: cover;
-    border-bottom: 5px solid black;
 }
 /* .bj-img-nav-bar-config{
     height: 100px;
@@ -651,3 +685,5 @@ p{
 .bj-fade-out{
     animation: fadeOut 5s forwards ease-out;
 }
+
+  
