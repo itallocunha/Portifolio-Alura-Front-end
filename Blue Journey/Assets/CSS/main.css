@@ -337,7 +337,31 @@ p{
     left: 0;
     
 }
+.bj-config-image-book{
+    height: 1400px;
+    width: 100%;
 
+}
+.bj-config-background-book{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 37px 37px 37px 37px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.bj-config-text-book{
+    position: absolute;
+    justify-content:center;
+    text-align: center;
+}
+.bj-config-text-book h1, h5, h2 {
+    margin-top: 20px;
+    color: white;
+    left: 0;
+    right: 0
+}
 .bj-link-projeto-1{
     position: absolute;
     height: 400px;
