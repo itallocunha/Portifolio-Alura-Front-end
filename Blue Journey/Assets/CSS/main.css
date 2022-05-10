@@ -110,8 +110,8 @@ p{
 
     }
     .bj-logo{
-        height: 130px;
-        width: 350px;
+        height: 100px;
+        width: 750px;
         float: left;
         margin-left: 40px;
         /* background-color: transparent; */
@@ -632,20 +632,20 @@ width: 100%;
     
 }
 .bj-project-img-1{
-    height:100vh;
-    background-image: url(/Assets/img/Desktop-1-1-1024x561.jpg);
+    height:100%;
+    width: 100%;
+    background-image: url(/Assets/img/Pop_Spiritual_Project-_horse_concep2_bzjvkc.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
-    
+    background-position: center;
 }
 .bj-project-img-2{
     height:100vh;
     background-image: url(/Assets/img/Courage_Night_Full_1_70_o3q9ty.png);
     background-repeat: no-repeat;
-    
     background-size: cover;
-    
+    background-position: center;
+
 }
 .bj-project-img-3{
     height:50vh;
