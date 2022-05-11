@@ -329,12 +329,13 @@ p{
 .bj-config-image-logo-loading{
     position: absolute;
     background-repeat: no-repeat;
-    margin-top: 200px;
-    margin-left: 690px;
+    margin-top: 150px;
+    /* margin-left: 690px; */
     height: 100%;
     width: 500px;
-    right: 0;
-    left: 0;
+    right: 50vh;
+    left: 68vh;
+    
     
 }
 .bj-config-image-book{
