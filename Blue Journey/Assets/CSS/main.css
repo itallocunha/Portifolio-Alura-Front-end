@@ -114,7 +114,6 @@ p{
         width: 750px;
         float: left;
         margin-left: 40px;
-        /* background-color: transparent; */
         border-radius: 0 0 37px 37px;
         text-align: center; 
         color: white;
@@ -394,12 +393,24 @@ p{
     margin-top: 100px;
     margin-left: 100px;
 }
-
+.bj-config-image-hands{
+    height: 800px;
+    width: 100%;
+}
+.bj-image-bubbles{
+    width: 100%;
+    height: 150px;
+}
 .bj-footer-colaboration{
     height: 100px;
     width: 100%;
     background-color: white;
     
+}
+.bj-sponsor{
+background-color: white;
+height: 700px;
+width: 100%;
 }
 .bj-footer-colaboration-image{
     margin-top: 15px;
@@ -446,8 +457,26 @@ p{
 height: 100%;
 width: 100%;
 }
-
-
+.bj-background-all{
+    height: 600px;
+    width: 100%;
+}
+.bj-footer-p-1{
+    position: absolute;
+    color: rgb(8, 39, 39);
+    margin-top: 35px;
+    margin-left: 150px;
+    font-weight:600;
+    font-size: 20px;
+}
+.bj-footer-p-2{
+    position: absolute;
+    color: rgb(8, 39, 39);
+    margin-top: 35px;
+    margin-left: 1000px;
+    font-weight:600;
+    font-size: 20px;
+}
 }
 @media screen and (min-width: 576px)
 {
