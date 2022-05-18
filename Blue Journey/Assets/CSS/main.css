@@ -480,9 +480,9 @@ background-size: cover;
     font-size: 20px;
 }
 .bj-container-project-1{
-    height: 650px;
-    width: 750px;
-    margin-left: 715px;
+    height: 670px;
+    width: 740px;
+    margin-left: 730px;
     margin-top: 25px;
 }
 .bj-img-model-project{
@@ -575,8 +575,8 @@ background-size: cover;
 .bj-local-btn-1{
     position: absolute;
     border-radius: 10px;
-    margin-left: 100px;
-    margin-top: 650px;
+    margin-left: 60px;
+    margin-top: 670px;
     height:30px;
     width:70px;
     text-decoration: none;
@@ -584,10 +584,9 @@ background-size: cover;
 }
 .bj-local-btn-2{
     position: absolute;
-    background-color: purple;
     border-radius: 10px;
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 60px;
+    margin-top: 670px;
     height:30px;
     width:70px;
     text-decoration: none;
@@ -613,7 +612,8 @@ background-size: cover;
     transition: all 0.2s ease-out;
     display: inline-block;
     margin-left: 35px;
-    background-color: darkblue;
+    background-color: rgb(19, 19, 169);
+    
     
 }
 .bj-btn-2{
@@ -640,7 +640,6 @@ background-size: cover;
 .bj-btn-medium{
     height:38px;
     padding: 0 27px;
-    border-radius: 5px;
     font-size: 14px;
 }
 .bj-btn-large{
@@ -653,6 +652,7 @@ background-size: cover;
 /* UTILITUIES */
 .bj-text{
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 .bj-text-cursive-shadow{
     font-family: 'Kurale', serif;
@@ -742,11 +742,12 @@ background-size: cover;
 }
 
 .bj-project-img-2{
-    height:100vh;
-    background-image: url(/Assets/img/Courage_Night_Full_1_70_o3q9ty.png);
+    height:100%;
+    width: 100%;
+    background-image: url(../img/Courage\ Animation.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 
 }
 .bj-project-img-3{
